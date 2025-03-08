@@ -4,14 +4,15 @@ import { HeaderComponent } from "./components/HeaderComponent";
 import { DetailComponent } from "./components/DetailComponent";
 import { fetchSocialsData } from "./services/socialMediaService";
 import ModeToggle from "./components/ModeToggle";
+import dataSocial from "/data.json"
 
 function App() {
   const [socialData, setSocialData] = useState("");
 
   useEffect(() => {
     const GetData = async () => {
-      const data = await fetchSocialsData();
-      setSocialData(data);
+      // const data = await fetchSocialsData();
+      setSocialData(dataSocial);
     };
     GetData();
   }, []);
