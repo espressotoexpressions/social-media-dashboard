@@ -13,3 +13,5 @@ Using Tailwind
 Light and Dark Mode
 
 //peer reviewed by:
+Thao Vang
+most of it looks good. the dark mode button needs work on switch. the bg in dark mode doesnt go all the way.  
