@@ -1,0 +1,80 @@
+
+  {
+      "SocialMedia":[
+            {
+           
+                  "name":"facebook",
+                  "imgSrc":"./images/icon-facebook.svg",
+                  "userName": "nathanf",
+                  "countTotal": 1987,
+                  "countLbl": "FOLLOWERS",
+                  "countToday":12,
+                  "details":[
+                    { "detailLbl":"Page Views",
+                      "detailCount": 87,
+                      "percentCnt": 3
+                    },   
+                    { "detailLbl":"Likes",
+                    "detailCount": 52,
+                    "percentCnt": -2
+                    }
+
+                ]
+            },
+             {
+            "name":"twitter",
+            "imgSrc":"./images/icon-twitter.svg",
+            "userName": "nathanf",
+            "countTotal": 1044,
+            "countLbl": "FOLLOWERS",
+            "countToday":99,
+            "details":[
+              { "detailLbl":"Retweets",
+                "detailCount": 117,
+                "percentCnt": 303
+              },   
+              { "detailLbl":"Likes",
+              "detailCount": 507,
+              "percentCnt": 533
+              }
+            ]
+         },
+         {
+          "name":"instagram",
+          "imgSrc":"./images/icon-instagram.svg",
+          "userName": "nathanf",
+          "countTotal": "11K",
+          "countLbl": "FOLLOWERS",
+          "countToday":1099,
+          "details":[
+            { "detailLbl":"Likes",
+              "detailCount": 5462,
+              "percentCnt": 2275
+            },   
+            { "detailLbl":"Profile Views",
+            "detailCount": "52K",
+            "percentCnt": 1375
+            }
+          ]
+       },
+       {
+        "name":"youtube",
+        "imgSrc":"./images/icon-youtube.svg",
+        "userName": "Nathan F",
+        "countTotal": 8239,
+        "countLbl": "SUBSCRIBERS",
+        "countToday":-144,
+        "details":[
+          { "detailLbl":"Likes",
+            "detailCount": 107,
+            "percentCnt": -19
+          },   
+          { "detailLbl":"Total Views",
+          "detailCount": 1407,
+          "percentCnt": -12
+          }
+        ]
+     }
+          
+    ]
+}
